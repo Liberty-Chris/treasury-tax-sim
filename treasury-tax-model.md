@@ -131,13 +131,34 @@ Where:
 
 This equation captures the two major influences on staking yield: **the natural decline from reserve depletion** and **the compensatory effect of transaction fees**.
 
-### **5. Staking Yield Projection Chart**
+### **E. Staking Yield Projection Chart**
 
 Below is a visualization of staking yield decline over time, incorporating both the effect of the reserve depletion and the transition to transaction-fee-based rewards:
 
 ![Projected Staking Yield Decline](images/staking_yield_projection.png)
 
 While the Treasury tax cut **may influence staking yield in the short term**, the long term decline in staking rewards is primarily due to the depletion of the reserve fund and the transition to a fee-based model. Network adoption, transaction fees, and governance decisions will play a far greater role in determining staking returns over time. Therefore, arguments that suggest a direct and permanent increase in staking yield due to the tax cut **overlook these larger structural factors**.
+
+---
+
+## **2.5 Blockchain Treasury and Funding Comparison**
+
+| **Feature**          | **Cardano** (Treasury Tax Model) | **Ethereum** (Foundation & Grants) | **Polkadot** (On-Chain Treasury) | **Solana** (VC & Foundation Funding) |
+|----------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+| **Primary Funding Source** | Treasury tax (τ) + transaction fees | Ethereum Foundation + private grants | On-chain Treasury from inflation, fees, and slashing | VC-backed funding, Solana Foundation |
+| **Governance Model** | On-chain voting (Catalyst, CIP-1694) | Foundation-driven, off-chain governance | On-chain governance via referenda | Centralized Foundation with limited governance |
+| **Transparency** | Fully on-chain, trackable | Foundation spending is not fully transparent | On-chain tracking of Treasury usage | Mostly off-chain, controlled by private investors |
+| **Decentralization** | Community-controlled Treasury | EF controls most ecosystem grants | Community vote-based spending | Heavily VC-funded, centralized decisions |
+| **Flexibility** | Treasury allocation can be adjusted via governance | EF grants can be adjusted but are not fully decentralized | Referenda determine fund distribution | Controlled by Solana Foundation leadership |
+| **Treasury Size & Growth** | 1.67B ADA (growing via tax & fees) | No protocol-level Treasury, relies on EF holdings | Treasury accumulates via slashing and inflation | No direct on-chain Treasury, mostly external funding |
+
+### **Key Takeaways:**
+- **Cardano’s Treasury is one of the most decentralized and transparent funding models**.
+- **Ethereum relies on a foundation and off-chain grants**, meaning funding decisions are **not community-driven**.
+- **Polkadot has an on-chain Treasury but requires governance referenda for spending**, making it similar to Cardano but with a different distribution model.
+- **Solana is heavily VC-backed**, meaning governance and funding decisions are centralized among a few key players.
+
+Cardano’s Treasury model ensures **long-term, decentralized governance funding**, whereas other chains rely on **foundations, private investments, or centralized entities**.
 
 ---
 
