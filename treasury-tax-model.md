@@ -18,7 +18,7 @@ The Treasury receives a portion of transaction fees from Cardano network activit
 - **Starting Treasury Balance**: ₳1.67B (Source: Adastat)
 - **Transaction Volume**: 196,681 transactions per epoch (Source: Messari, Cexplorer)
 - **Average Transaction Fee**: 0.226 – 0.326 ADA (Source: Messari, historical fee data)
-- **Estimated Treasury Inflow Per Year from TX Fees (Does not include Inflows from P Parameter / i.e. Monetary Expansion)**:
+- **Estimated Treasury Inflow Per Year**:
   - **20% Tax Rate**: 648,970 – 936,225 ADA/year
   - **10% Tax Rate**: 324,485 – 468,112 ADA/year
 - **5-Year Projection**: Modeled treasury balance over time.
