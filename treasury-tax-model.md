@@ -45,17 +45,6 @@ $$
 \tau = \text{Treasury cut percentage (20% or 10%)}
 $$
 
-**Expected Outcome:** Even at a 10% tax rate, **the Treasury should still be supplied with >1B ADA in 5 years**, maintaining long term sustainability.
-
-### Projected Treasury Balance Over 5 Years (With Reserve Decay & Withdrawals)
-
-This graph illustrates the projected Treasury balance over 5 years, considering:
-- **The declining monetary expansion (ρ) as ADA reserves shrink**.
-- **Annual Treasury withdrawals of 100M ADA**.
-- **Comparing a 20% tax rate vs. a 10% tax rate**.
-
-![Treasury Projection with Reserve Decay](treasury_projection_decay.png)
-
 ---
 
 ### **2.2 DeFi & Stablecoin Growth Impact**
