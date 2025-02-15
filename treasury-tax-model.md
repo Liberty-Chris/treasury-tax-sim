@@ -14,7 +14,7 @@ Additionally, this document **addresses and counters concerns** raised by Chris 
 ## **2. Methodology: How I Model the Impact of the Tax Cut**
 
 ### **2.1 Treasury Sustainability**
-The Treasury receives a portion of transaction fees from Cardano network activity. I project treasury growth under both **20% and 10% tax rates**, using:
+The Treasury is primarily funded by monetary expansion $$\rho$$ (rho) and secondarily by transaction fees. Every epoch, 20% (or 10%) of the total reward pot, consisting of both monetary expansion and fees, is allocated $$\tau$$ (tau, ```treasuryCut```) to the Treasury. I project Treasury growth under both **20% and 10% tax rates**, using:
 - **Starting Treasury Balance**: ₳1.67B (Source: Adastat)
 - **Transaction Volume**: 196,681 transactions per epoch (Source: Messari, Cexplorer)
 - **Average Transaction Fee**: 0.226 – 0.326 ADA (Source: Messari, historical fee data)
