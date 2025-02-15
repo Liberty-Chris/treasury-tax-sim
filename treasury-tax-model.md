@@ -79,6 +79,57 @@ $$
 
 ---
 
+## **2.4 Staking Yield and the Treasury Tax Cut**
+
+A key consideration in the debate surrounding the Treasury tax cut is its potential impact on staking yield. Some have argued that reducing the tax from 20% to 10% would significantly increase staking rewards; however, this assumption does not take into account the long-term trajectory of staking yield on Cardano.
+
+### **A. Staking Yield is Declining Over Time**
+
+Cardano's staking rewards initially started at around **5% annually in 2020** but have since declined to approximately **2.6% annually** as of recent data. This decline is expected to continue due to the network’s **monetary policy and reward structure**:
+
+- **Depleting Reserve Fund**: At the launch of the Shelley era, a portion of rewards came from Cardano’s reserve fund. As this reserve diminishes over time, fewer ADA tokens will be available to supplement staking rewards.
+- **Transition to Fee-Based Rewards**: Over time, staking rewards will shift from being supplemented by the reserve to being primarily funded by **transaction fees**. The rate of this transition depends on network adoption and transaction volume.
+
+### **B. The Role of the Treasury Tax Cut in Yield Adjustments**
+
+While reducing the Treasury tax from **20% to 10%** does return more ADA to the staking economy, this effect is **secondary** compared to the larger structural trends affecting staking rewards:
+
+- **Short-Term Impact**: The immediate result of reducing the tax rate may lead to a temporary increase in staking returns due to higher ADA inflows.
+- **Long-Term Perspective**: Since staking rewards are projected to decline **regardless of the tax rate**, any increase from the tax cut will be relative rather than absolute. The primary factor determining staking yield in the long run remains **network adoption and transaction fees**.
+
+### **C. Governance and the Future of Staking Rewards**
+
+The evolving economic model of Cardano suggests that **staking rewards should not be viewed in isolation from broader network growth**. Key factors that will determine future staking yield include:
+
+- **Transaction Volume Growth**: As more applications and users transact on Cardano, the collected fees will contribute to staking rewards, potentially stabilizing yields.
+- **Governance Adjustments**: The Cardano community may propose changes to staking parameters, potentially adjusting reward mechanisms in response to economic conditions.
+
+### **D. Staking Yield Projection Model**
+
+The declining staking yield can be modeled as follows:
+
+$$
+Y_t = Y_{t-1} 	imes (1 - d) + rac{F_t}{S_t}
+$$
+
+Where:
+- $\( Y_t \)$ = Staking yield at time $\( t \)$
+- $\( d \)$ = Decline rate due to reserve depletion
+- $\( F_t \)$ = Transaction fees collected at time $\( t \)$
+- $\( S_t \)$ = Total staked ADA at time $\( t \)$
+
+This equation captures the two major influences on staking yield: **the natural decline from reserve depletion** and **the compensatory effect of transaction fees**.
+
+### **5. Staking Yield Projection Chart**
+
+Below is a visualization of staking yield decline over time, incorporating both the effect of the reserve depletion and the transition to transaction-fee-based rewards:
+
+![Projected Staking Yield Decline](images/staking_yield_projection.png)
+
+While the Treasury tax cut **may influence staking yield in the short term**, the long term decline in staking rewards is primarily due to the depletion of the reserve fund and the transition to a fee-based model. Network adoption, transaction fees, and governance decisions will play a far greater role in determining staking returns over time. Therefore, arguments that suggest a direct and permanent increase in staking yield due to the tax cut **overlook these larger structural factors**.
+
+---
+
 ## **3. Countering Chris O’s Arguments**
 
 Chris O argues that the Treasury tax should not be reduced due to potential risks. Below, I address each of his concerns with **data-backed counterarguments**.
