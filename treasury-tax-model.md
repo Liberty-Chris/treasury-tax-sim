@@ -36,7 +36,7 @@ $$
 
 
 
-### **2.3 DeFi & Stablecoin Growth Impact**
+### **2.2 DeFi & Stablecoin Growth Impact**
 A lower tax rate **reduces friction for DeFi participants** and encourages capital allocation to liquidity pools, benefiting Cardano’s stablecoin ecosystem. I model:
 - **Current TVL**: $231.6M (Source: Messari, Q4 2024 Report)
 - **Stablecoin Market Cap**: $20.7M (USDM growth: +148.5% QoQ) (Source: Messari)
@@ -61,7 +61,7 @@ $$
 
 ---
 
-### **2.4 Network Activity & Fee Revenue Effects**
+### **2.3 Network Activity & Fee Revenue Effects**
 The Treasury depends on transaction fees, and economic activity influences **how much revenue the network generates**. I model:
 - **Transaction Growth Rate**: +3% per year (Source: Messari, historical network data)
 - **Impact of Lower Taxes on Transaction Volume**: Lower friction encourages more on-chain activity.
