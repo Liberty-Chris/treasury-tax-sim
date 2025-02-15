@@ -18,23 +18,38 @@ The Treasury receives a portion of transaction fees from Cardano network activit
 - **Starting Treasury Balance**: ₳1.67B (Source: Adastat)
 - **Transaction Volume**: 196,681 transactions per epoch (Source: Messari, Cexplorer)
 - **Average Transaction Fee**: 0.226 – 0.326 ADA (Source: Messari, historical fee data)
-- **Estimated Treasury Inflow Per Year**:
-  - **20% Tax Rate**: 648,970 – 936,225 ADA/year
-  - **10% Tax Rate**: 324,485 – 468,112 ADA/year
+- **Estimated Treasury Inflow Per Year:**
+  - **Total Inflow at 20% Tax Rate:** ~343.6M ADA/year
+  - **Total Inflow at 10% Tax Rate:** ~171.8M ADA/year
+  - **From Transaction Fees at 20% Tax Rate:** 648,970 – 936,225 ADA/year
+  - **From Transaction Fees at 10% Tax Rate:** 324,485 – 468,112 ADA/year
 - **5-Year Projection**: Modeled treasury balance over time.
 
 **Formula:**
 
 $$
-\text{Treasury Balance}\_t = \text{Treasury Balance}\_{t-1} + \left(\sum\_{i=1}^{N} \text{Transaction Fees}\_i \times \text{Tax Rate} \right)
+\text{Treasury Balance}\_t = \text{Treasury Balance}\_{t-1} + \left( (\rho\_t + F\_t) \times \tau \right)
 $$
+
+Where:
+
+$$
+\rho_t = \text{Monetary expansion per epoch (~4.7M ADA)}
+$$
+
+$$
+F_t = \text{Transaction fees collected per epoch}
+$$
+
+$$
+\tau = \text{Treasury cut percentage (20% or 10%)}
+$$
+
+
 
 **Expected Outcome:** Even with a 10% tax rate, **the Treasury continues to grow**, maintaining long term sustainability.
 
-
 ---
-
-
 
 ### **2.2 DeFi & Stablecoin Growth Impact**
 A lower tax rate **reduces friction for DeFi participants** and encourages capital allocation to liquidity pools, benefiting Cardano’s stablecoin ecosystem. I model:
@@ -113,10 +128,10 @@ Y_t = Y_{t-1} 	imes (1 - d) + rac{F_t}{S_t}
 $$
 
 Where:
-- $\( Y_t \)$ = Staking yield at time $\( t \)$
-- $\( d \)$ = Decline rate due to reserve depletion
-- $\( F_t \)$ = Transaction fees collected at time $\( t \)$
-- $\( S_t \)$ = Total staked ADA at time $\( t \)$
+- $Y_t$ = Staking yield at time $t$
+- $d$ = Decline rate due to reserve depletion
+- $F_t$ = Transaction fees collected at time $t$
+- $S_t$ = Total staked ADA at time $t$
 
 This equation captures the two major influences on staking yield: **the natural decline from reserve depletion** and **the compensatory effect of transaction fees**.
 
