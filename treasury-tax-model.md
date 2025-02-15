@@ -26,7 +26,7 @@ The Treasury receives a portion of transaction fees from Cardano network activit
 **Formula:**
 
 $$
-\text{Treasury Balance}_t = \text{Treasury Balance}_{t-1} + \left(\sum_{i=1}^{N} \text{Transaction Fees}_i \times \text{Tax Rate} \right)
+\text{Treasury Balance}\_t = \text{Treasury Balance}\_{t-1} + \left(\sum\_{i=1}^{N} \text{Transaction Fees}\_i \times \text{Tax Rate} \right)
 $$
 
 **Expected Outcome:** Even with a 10% tax rate, **the Treasury continues to grow**, maintaining long term sustainability.
@@ -66,7 +66,7 @@ A lower tax rate **reduces friction for DeFi participants** and encourages capit
 **Formula:**
 
 $$
-\text{TVL}_t = \text{TVL}_{t-1} \times (1 + \text{Base Growth Rate} + \text{Tax Cut Boost})
+\text{TVL}\_t = \text{TVL}\_{t-1} \times (1 + \text{Base Growth Rate} + \text{Tax Cut Boost})
 $$
 
 **Expected Outcome:** Lowering the tax accelerates **TVL and stablecoin adoption**, increasing **Cardano’s competitiveness in DeFi**.
@@ -86,7 +86,7 @@ The Treasury depends on transaction fees, and economic activity influences **how
 **Formula:**
 
 $$
-\text{Transactions}_t = \text{Transactions}_{t-1} \times (1 + \text{Growth Rate})
+\text{Transactions}\_t = \text{Transactions}\_{t-1} \times (1 + \text{Growth Rate})
 $$
 
 **Expected Outcome:** A lower tax **boosts transaction volume**, offsetting treasury reductions over time.
@@ -259,14 +259,14 @@ Both methods of funding a Sovereign Wealth Fund offer distinct advantages. Below
 Mathematically, both methods follow **different growth trajectories**, modeled as:
 
 - **For Treasury Growth Allocation**:
-  $$
-  SWF_{t+1} = SWF_t + (SWF_t \times r) + SWF_{USD}
-  $$
+$$
+SWF\_{t+1} = SWF\_t + (SWF\_t \times r) + SWF\_{USD}
+$$
 
 - **For the One-Time 800M ADA Sale**:
-  $$
-  SWF_{t+1}^{one-time} = SWF_t^{one-time} + (SWF_t^{one-time} \times r)
-  $$
+$$
+SWF\_{t+1}^{\text{one-time}} = SWF\_t^{\text{one-time}} + (SWF\_t^{\text{one-time}} \times r)
+$$
 
 This table illustrates how the **50% Treasury growth method** ensures **sustainable funding over time**, while the **one-time 800M ADA sale** provides **immediate liquidity** for large scale initiatives.
 
