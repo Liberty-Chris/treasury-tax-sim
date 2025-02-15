@@ -259,14 +259,17 @@ Both methods of funding a Sovereign Wealth Fund offer distinct advantages. Below
 Mathematically, both methods follow **different growth trajectories**, modeled as:
 
 - **For Treasury Growth Allocation**:
+
 $$
-SWF\_{t+1} = SWF\_t + (SWF\_t \times r) + SWF\_{USD}
+SWF_{t+1} = SWF_t + (SWF_t \cdot r) + SWF_{USD}
 $$
 
 - **For the One-Time 800M ADA Sale**:
+
 $$
-SWF\_{t+1}^{\text{one-time}} = SWF\_t^{\text{one-time}} + (SWF\_t^{\text{one-time}} \times r)
+SWF_{t+1}^{\mathrm{OT}} = SWF_t^{\mathrm{OT}} + (SWF_t^{\mathrm{OT}} \cdot r)
 $$
+
 
 This table illustrates how the **50% Treasury growth method** ensures **sustainable funding over time**, while the **one-time 800M ADA sale** provides **immediate liquidity** for large scale initiatives.
 
