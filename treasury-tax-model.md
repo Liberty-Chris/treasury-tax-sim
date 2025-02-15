@@ -34,23 +34,7 @@ $$
 
 ---
 
-### **2.2 Staking Incentives & Participation Growth**
-A tax cut returns more ADA to the staking economy, **boosting staking yields** and attracting more participation. I model:
-- **Current Total Staked ADA**: ₳21.83B (Source: Adastat)
-- **Projected Annual Staking Growth**: +2% (Estimated based on prior staking trends)
-- **Impact of Higher Yields**: Increased delegation, reinforcing network security.
 
-**Formula:**
-
-$$
-\text{Staking Yield} = \frac{\text{Total Rewards}}{\text{Total Staked ADA}} \times 100
-$$
-
-**Expected Outcome:** Higher staking rewards **increase participation**, making Cardano **more secure and decentralized**.
-
-![Projected Staking Yield Growth](images/staking_yield_growth.png)
-
----
 
 ### **2.3 DeFi & Stablecoin Growth Impact**
 A lower tax rate **reduces friction for DeFi participants** and encourages capital allocation to liquidity pools, benefiting Cardano’s stablecoin ecosystem. I model:
