@@ -1,6 +1,6 @@
-# Detailed Cardano Budget for 2025 (Final Fully Corrected Review)
+# Detailed Cardano Budget for 2025
 
-This version retains all original line items, with strikethroughs applied where modifications were made. Every expense has been scrutinized with a fiscally conservative lens, including overlaps, double-dipping, operational overhead, and unnecessary expenditures. All ADA values are now hardcoded and manually mapped to ensure consistency.
+This version retains all original line items, with strikethroughs applied where modifications were made. Every expense has been scrutinized with a fiscally conservative lens, including overlaps, double-dipping, operational overhead, and unnecessary expenditures. All ADA values only.
 
 ## Budget
 
